@@ -17,7 +17,7 @@ myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 
-
+//A. Nested function can accsess varibles outside of it's scope. Since nested function need's to log the varible internal, and it isn't provided within in it's scope, nested function will look outside of it's scope till it finds the varible it needs to complete it's action.
 
 
 
@@ -231,8 +231,17 @@ class CuboidMakerTwo{
 
 // 🦄 💪 Stretch Task: Extend the base class CuboidMaker with a sub class called CubeMaker.  Find out the formulas for volume and surface area for cubes and create those methods using the dimension properties from CuboidMaker.  Test your work by logging out your volume and surface area. 🦄 💪
   
-
-
+// class CubeMaker extends CuboidMakerTwo {
+//   constructor(att) {
+//   super(att);
+//   }
+//   volume() {
+//     return this.length * this.height * this.width;
+//   };
+//   surfaceArea() {
+//     return (this.length * 6) * (this.length * 6);
+//   };
+// };
 
 
 
